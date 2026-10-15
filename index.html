@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online Coaching Institutes | Learn Online</title>
+
+    <meta name="description"
+    content="Explore online coaching courses, programming, web development, AI, data science and competitive exam coaching.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #102a56;
+            color: white;
+            padding: 18px 5%;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 16px;
+        }
+
+        nav {
+            background: #174ea6;
+            padding: 14px 8px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            margin: 5px 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffdf70;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #12336b, #2878db);
+            color: white;
+            text-align: center;
+            padding: 75px 20px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 750px;
+            margin: 0 auto 25px;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 6px;
+            border-radius: 7px;
+            background: #ffcf40;
+            color: #102a56;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            opacity: 0.85;
+        }
+
+        section {
+            padding: 50px 6%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 30px;
+            color: #174ea6;
+            margin-bottom: 12px;
+        }
+
+        .section-desc {
+            text-align: center;
+            margin: 0 auto 30px;
+            max-width: 750px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-top: 4px solid #2878db;
+        }
+
+        .card h3 {
+            color: #174ea6;
+            margin-bottom: 12px;
+            font-size: 20px;
+        }
+
+        .card p {
+            margin-bottom: 10px;
+        }
+
+        .card a {
+            color: #174ea6;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .features {
+            background: #e8f1ff;
+        }
+
+        .feature {
+            background: white;
+            padding: 18px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .contact {
+            background: #102a56;
+            color: white;
+            text-align: center;
+        }
+
+        .contact .section-title {
+            color: white;
+        }
+
+        .contact p {
+            margin: 12px 0;
+        }
+
+        .contact-details {
+            max-width: 650px;
+            margin: 25px auto;
+            padding: 22px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            overflow-wrap: anywhere;
+        }
+
+        footer {
+            background: #091a35;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+
+            .section-title {
+                font-size: 25px;
+            }
+
+            nav a {
+                margin: 5px 7px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <h1>ONLINE COACHING INSTITUTES</h1>
+        <p>Learn Today • Build Your Skills • Shape Your Future</p>
+    </header>
+
+    <!-- NAVIGATION -->
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HOME -->
+
+    <section class="hero" id="home">
+        <h2>Welcome to Online Learning</h2>
+
+        <p>
+            Discover online coaching courses to improve your
+            knowledge, develop technical skills and prepare for
+            your future career.
+        </p>
+
+        <a href="#courses" class="btn">Explore Courses</a>
+
+        <a href="#contact" class="btn">Contact Us</a>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about">
+        <h2 class="section-title">About Our Institute</h2>
+
+        <p class="section-desc">
+            Our online coaching website helps learners explore
+            educational courses in programming, technology,
+            school subjects and competitive exam preparation.
+            Choose a course that matches your learning goals.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Our Mission</h3>
+                <p>
+                    To make learning resources accessible and
+                    help students develop useful knowledge.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Our Vision</h3>
+                <p>
+                    To encourage continuous learning and
+                    technical skill development.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Our Goal</h3>
+                <p>
+                    To help learners discover courses that
+                    support their academic and career goals.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- COURSES -->
+
+    <section id="courses" style="background:#e8f1ff;">
+
+        <h2 class="section-title">Our Popular Courses</h2>
+
+        <p class="section-desc">
+            Explore our course categories and contact us
+            for details about classes and enrollment.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>01. Python Programming</h3>
+                <p>Learn Python syntax, variables, loops,
+                functions and basic projects.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>02. C Programming</h3>
+                <p>Learn data types, operators, conditions,
+                loops, arrays and functions.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>03. Web Development</h3>
+                <p>Explore HTML, CSS and JavaScript to
+                create interactive websites.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>04. Artificial Intelligence</h3>
+                <p>Discover AI fundamentals, applications
+                and introductory machine learning.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>05. Data Science</h3>
+                <p>Learn about data analysis, visualization,
+                statistics and Python tools.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>06. Java Programming</h3>
+                <p>Study Java basics, object-oriented
+                programming and simple applications.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>07. Database Management</h3>
+                <p>Understand database concepts, SQL queries,
+                tables and data management.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>08. Machine Learning</h3>
+                <p>Explore datasets, prediction models
+                and machine learning concepts.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>09. Mathematics Coaching</h3>
+                <p>Revise mathematical concepts,
+                formulas and problem-solving methods.</p>
+                <p><b>Level:</b> School / College</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>10. English Communication</h3>
+                <p>Improve grammar, vocabulary,
+                writing and communication skills.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>11. Computer Fundamentals</h3>
+                <p>Learn computer basics, operating systems,
+                office tools and internet skills.</p>
+                <p><b>Level:</b> Beginner</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+            <div class="card">
+                <h3>12. Competitive Exam Preparation</h3>
+                <p>Explore study resources for aptitude,
+                reasoning and general knowledge.</p>
+                <p><b>Level:</b> Exam Preparation</p>
+                <a href="#contact">Enquire Now →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+
+    <section class="features" id="features">
+
+        <h2 class="section-title">Why Choose Online Learning?</h2>
+
+        <p class="section-desc">
+            Learn at your own pace and explore different
+            educational opportunities.
+        </p>
+
+        <div class="cards">
+
+            <div class="feature">
+                <h3>📚 Multiple Courses</h3>
+                <p>Explore different learning subjects.</p>
+            </div>
+
+            <div class="feature">
+                <h3>💻 Learn Online</h3>
+                <p>Access learning resources online.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🎯 Skill Development</h3>
+                <p>Build your knowledge and skills.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📞 Easy Contact</h3>
+                <p>Contact us through email, phone or WhatsApp.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="section-title">Contact Us</h2>
+
+        <p>
+            Interested in a course? Contact us for more information.
+        </p>
+
+        <div class="contact-details">
+
+            <p>
+                <b>Email:</b><br>
+                nachammal980@gmail.com
+            </p>
+
+          <a class="btn"
+   href="https://mail.google.com/mail/?view=cm&fs=1&to=nachammal980@gmail.com&su=Online%20Coaching%20Course%20Enquiry"
+   target="_blank">
+   📧 Send Email
+</a>
+
+ <p>
+    <b>Phone:</b><br>
+    8807924051
+</p>
+
+<a class="btn" href="tel:+918807924051">
+    📞 Call Now
+</a>
+                <b>WhatsApp:</b><br>
+                8807924051
+            </p>
+
+            <a class="btn"
+               href="https://wa.me/918807924051?text=Hello%2C%20I%20need%20details%20about%20your%20online%20coaching%20courses."
+               target="_blank"
+               rel="noopener">
+               💬 Chat on WhatsApp
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>© 2026 Online Coaching Institutes</p>
+        <p>Learn More • Grow More • Achieve More</p>
+    </footer>
+
+</body>
+</html>
