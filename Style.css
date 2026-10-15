@@ -1,3 +1,191 @@
 
 
-   
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+header {
+    background: #102a56;
+    color: white;
+    padding: 18px 5%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+nav {
+    background: #174ea6;
+    padding: 14px 8px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffdf70;
+}
+
+.hero {
+    background: linear-gradient(135deg, #12336b, #2878db);
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: 0 auto 25px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 6px;
+    border-radius: 7px;
+    background: #ffcf40;
+    color: #102a56;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+section {
+    padding: 50px 6%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    color: #174ea6;
+    margin-bottom: 12px;
+}
+
+.section-desc {
+    text-align: center;
+    margin: 0 auto 30px;
+    max-width: 750px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid #2878db;
+}
+
+.card h3 {
+    color: #174ea6;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: #174ea6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.features {
+    background: #e8f1ff;
+}
+
+.feature {
+    background: white;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact {
+    background: #102a56;
+    color: white;
+    text-align: center;
+}
+
+.contact .section-title {
+    color: white;
+}
+
+.contact p {
+    margin: 12px 0;
+}
+
+.contact-details {
+    max-width: 650px;
+    margin: 25px auto;
+    padding: 22px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+}
+
+footer {
+    background: #091a35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    nav a {
+        margin: 5px 7px;
+        font-size: 14px;
+    }
